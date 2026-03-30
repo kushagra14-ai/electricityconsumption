@@ -64,7 +64,9 @@ ________________________________________
 Custom Prediction Example
 The script includes a "Scenario Simulator" where you can input specific conditions (e.g., a cold Monday evening in June) to see what the models predict:
 
-Python
+**output**
+<img width="428" height="378" alt="image" src="https://github.com/user-attachments/assets/44c24016-9ade-4f3a-8f87-51ffb7b25dd2" />
+
 
 # Scenario:
 LR Prediction : 59231.42 kWh
