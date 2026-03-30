@@ -117,7 +117,7 @@ print()
 print("Feature Importance:")
 print(importance.head(10).round(4))
 
-
+n = 300
 test_dates = df["Datetime"].iloc[len(y_train) : len(y_train) + n]
 
 fig, axes = plt.subplots(3, 1, figsize=(15, 13))

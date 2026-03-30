@@ -58,7 +58,7 @@ MODEL EVALUATION
 ========================================
 
   x  (Mean Absolute Error)        : 468.37559012203786  kWh
-  y (Root Mean Squared Error)    :  726.1804525660083  kWh
+  y (Root Mean Squared Error)    :  726.1804525660085  kWh
   z (Mean Abs. Percentage Error) :  0.7329339867758655 %
 
 
@@ -74,7 +74,3 @@ Temperature            0.0001
 Humidity               0.0001
 day                    0.0001
 dtype: float64
-Traceback (most recent call last):
-  File "C:\Users\dell\OneDrive\Desktop\New folder\aiml--true.py", line 121, in <module>
-    test_dates = df["Datetime"].iloc[len(y_train) : len(y_train) + n]
-NameError: name 'n' is not defined. Did you mean: 'np'?
