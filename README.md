@@ -1,4 +1,4 @@
-Smart Grid Electricity Consumption Forecasting
+**Smart Grid Electricity Consumption Forecasting**
 
 
 This project leverages machine learning to predict energy demand by analyzing historical consumption patterns and environmental factors. By utilizing both linear and non-linear regression techniques, the system identifies key drivers of power usage across three distinct zones.
@@ -12,7 +12,7 @@ This project leverages machine learning to predict energy demand by analyzing hi
 •	Visual Analytics
 •	Usage & Deployment
 ________________________________________
- Data Architecture
+** Data Architecture**
 The project utilizes the powerconsumption.csv dataset, which records energy usage at 10-minute intervals.
 
 
@@ -28,7 +28,7 @@ The raw Datetime string is parsed into individual components to help the models 
 ________________________________________
 
  
- Feature Engineering Pipeline
+** Feature Engineering Pipeline**
 The script employs advanced time-series techniques to provide the models with historical context (short-term and long-term memory).
 Lag Features (The "Memory" of the Model)
 •	lag_1: Consumption from 10 minutes ago.
@@ -38,8 +38,8 @@ Rolling Statistics
 •	rolling_avg_1h: A 6-interval windowed average that smooths out high-frequency noise and captures the immediate trend of the last hour.
 
 ________________________________________
-
- Model Methodology
+**
+ Model Methodology**
  
 Two distinct approaches are compared to evaluate the trade-off between simplicity and predictive power:
 Linear Regression (Baseline)
@@ -60,13 +60,13 @@ o	Note: Typically, historical lags (lag_144) and hour of the day are the highest
 ________________________________________
 
 
-Usage & Deployment
+**Usage & Deployment**
 Custom Prediction Example
 The script includes a "Scenario Simulator" where you can input specific conditions (e.g., a cold Monday evening in June) to see what the models predict:
 
 Python
 
-# Scenario: Monday 6 PM, June, Temp=15°C
+# Scenario:
 LR Prediction : 59231.42 kWh
 RF Prediction : 60124.85 kWh
 
